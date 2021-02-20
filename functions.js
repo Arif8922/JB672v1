@@ -15,8 +15,8 @@ function payload_finished(payload)
 
 function triggerFunction(payload){
 	preloader();
-	if(payload == "app2usb"){
-		app2usb();
+	if(payload == "App2usb"){
+		App2usb();
 	}else if(payload == "backup"){
 		backup();
 	}else if(payload == "disableupdates"){
